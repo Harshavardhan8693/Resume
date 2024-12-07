@@ -1,0 +1,129 @@
+\documentclass[a4paper]{article}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{textcomp}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx} % Times New Roman Font
+\usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=black,
+    filecolor=black,
+    urlcolor=blue
+}
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\header} [1] {
+    {\vspace*{16pt} \hspace*{-18pt}\textsc{\Large #1}}\\
+    \vspace*{4pt} \hspace*{-18pt} \hrulefill \\ \vspace*{4pt}
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-4pt}
+}
+
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\vspace*{-40pt}
+
+%==== Profile ====%
+
+\contact{Harsha Vardhan}{
+    harshavardhan8693@gmail.com $\cdot$ +91 7207676463}{
+    \href{https://www.linkedin.com/in/harsha-vardhan-314963188/}{LinkedIn Profile} $\cdot$ Hyderabad, India
+}
+
+%==== Summary ====%
+
+\header{Professional Summary}
+Quality Analyst with 4+ years of expertise in manual and automated testing, specializing in UI, API, and mobile testing. Proficient in tools such as Selenium, Karate, Rest Assured, Perfecto and Jenkins. Adept at designing scalable automation frameworks, optimizing test processes, and collaborating with cross-functional teams to deliver bug-free software.
+
+%==== Experience ====%
+
+\header{Professional Experience}
+\textbf{Accenture} \hfill \textit{Hyderabad, India}  \\
+
+\textbf{Quality Analyst} \hfill \textbf{June 2022 – Present}
+\begin{itemize}
+\item Roles and Responsibilities:
+\begin{itemize}
+\item Designed, developed, and tested custom software solutions across multiple applications, ensuring high-quality deliverables and meeting business requirements.
+\item Led full-stack solutions by effectively integrating cross-functional teams, expediting project delivery while maintaining a strong focus on quality standards.
+\item Supported continuous improvement initiatives, driving organizational success by identifying areas for enhancement and fostering a culture of quality and efficiency.
+\item Developed and implemented automation strategies and scripts, streamlining testing processes and increasing testing efficiency.
+\item Actively participated in code reviews and defect monitoring, providing valuable feedback to improve code quality and minimize defects.
+\item Applied expertise in planning and executing test scripts to evaluate functionality, ensuring thorough validation of software applications.
+\item Ensured accessibility and clarity of testing results, tracking defects to closure while maintaining detailed and organized test reports.
+\item Evaluated product function, performance, and design compliance against established standards and customer requirements, ensuring alignment with project objectives and quality expectations.
+\end{itemize}
+\end{itemize}
+
+
+\textbf{Associate Software Engineer} \hfill \textbf{Feb 2021 – June 2022}
+\begin{itemize}
+\item Roles and Responsibilities:
+\begin{itemize}
+\item Improved software quality by designing and executing comprehensive test plans and test cases to validate application functionality and performance.
+\item Optimized test coverage by utilizing risk-based analysis techniques, prioritizing high-impact areas to ensure focused and efficient testing.
+\item Developed and optimized test cases to maximize the success of manual testing efforts, applying consistent, thorough approaches to ensure comprehensive coverage.
+\item Coordinated regression test automation across supported applications, streamlining testing processes and enhancing integration with development workflows.
+\item Documented detailed testing procedures for developers and future testing cycles, establishing clear and consistent guidelines for testing activities.
+\item Implemented continuous improvement initiatives within the QA department, driving enhancements in defect detection accuracy and overall testing effectiveness.
+\end{itemize}
+\end{itemize}
+%==== Education ====%
+
+\header{Education}
+\textbf{Bachelor of Engineering, Electronics and Communication} \hfill \textit{Aug 2016 – Nov 2020} \\
+Osmania University, Hyderabad \\
+
+%==== Skills ====%
+
+\header{Technical Skills}
+\begin{itemize}
+    \item \textbf{UI Automation Tools:} Selenium (Java),UI Path(RPA Tool)
+    \item \textbf{API Automation Tools:} Karate(DSL), Rest Assured (Java), Postman
+    \item \textbf{Version Control and CI/CD Tools:} Git, Bit bucket,Jenkins
+    \item \textbf{Domain Knowledge:} Banking,Insurance,Health Care
+    \item \textbf{Reporting and Management Tools:} Jira Xray,Q test,ALM,Confluence,Swagger,Power BI
+    \item \textbf{Frameworks :} Page Object Model(POM), Data Driven Model, Cucumber on both Selenium and Karate
+    \item \textbf{Other Skills:} Agile Methodologies, Microsoft Tools
+\end{itemize}
+
+%==== Projects ====%
+
+\header{Key Projects}
+
+\textbf{PNC TCoE Retail (PNC Bank, USA)} \hfill \textit{Mar 2021 – Oct 2023}
+\begin{itemize}
+\item Collaborated across multiple internal teams, ensuring the timely delivery of bug-free applications for critical functions such as bill pay and check deposits, improving customer satisfaction by 20\% and reducing issue resolution time.
+\item Played a pivotal role in establishing a robust testing framework using Karate with Cucumber in Gherkin syntax, optimizing testing efficiency and reducing manual testing time by 30%.
+\item Integrated the testing framework with Jenkins for seamless CI/CD pipeline deployment, reducing deployment times by 25\%, while utilizing MySQL for comprehensive and reliable database testing.
+\item Contributed to the creation of automation tests in Selenium, leveraging the Page Object Model (POM) framework to enhance UI automation efficiency and reduce manual testing efforts by 35%.
+\item Maintained comprehensive test reports in line with professional metrics, utilizing tools like Jira-Xray and ALM to ensure transparency, accountability, and consistent progress tracking, resulting in a 15\% increase in team productivity.
+\item Actively participated in Agile ceremonies, contributing to the success of the team by fostering a collaborative and agile workflow, ensuring continuous feedback and iterative improvement, leading to a 20\% reduction in development cycles.
+\item Handled complex test data with precision, ensuring data integrity, confidentiality, and compliance with industry best practices throughout the testing life cycle.
+\end{itemize}
+
+\textbf{KPXQMS (Kaiser Permanente)} \hfill \textit{Nov 2023 – Present}
+\begin{itemize}
+    \item Played a pivotal role in the improvement of the UI Path Image Detection automation framework by developing 50+ automation scripts, boosting testing efficiency by 40\% and reducing manual testing time by 35.
+    \item Spearheaded the upgrade of the image detection framework to a remote runtime framework, increasing script efficiency by 50\% and improving script re usability by 60\%.
+    \item Enhanced the Selenium-based Cucumber framework by adding 40+ UI test cases, ensuring 95\% test coverage and reducing defect leakage by 30\% in production.
+    \item Developed and executed 150+ mobile test cases using the Perfecto tool integrated with the Selenium-based Cucumber framework, improving cross-device testing coverage by 40\%.
+    \item Managed over 500 test cases in Git repositories and maintained detailed reports in Qtest, improving test documentation transparency and reducing audit preparation time by 20\%.
+    \item Implemented Jenkins integration for seamless test execution on remote machines, reducing test execution time by 35\% and optimizing automation workflows, leading to a 25\% increase in overall testing efficiency.
+\end{itemize}
+
+\end{document}
