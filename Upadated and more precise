@@ -1,0 +1,101 @@
+\documentclass[a4paper]{article}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{textcomp}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx} % Times New Roman Font
+\usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=black,
+    filecolor=black,
+    urlcolor=blue
+}
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\header} [1] {
+    {\vspace*{16pt} \hspace*{-18pt}\textsc{\Large #1}}\\
+    \vspace*{4pt} \hspace*{-18pt} \hrulefill \\ \vspace*{4pt}
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-4pt}
+}
+
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\vspace*{-40pt}
+
+%==== Profile ====%
+
+\contact{Harsha Vardhan}{
+    harshavardhan8693@gmail.com $\cdot$ +91 7207676463}{
+    \href{https://www.linkedin.com/in/harsha-vardhan-314963188/}{LinkedIn Profile} $\cdot$
+    \href{https://github.com/Harshavardhan8693}{Git Hub}
+}
+
+%==== Summary ====%
+
+\header{Professional Summary}
+Quality Analyst with 4+ years of expertise in manual and automated testing, specializing in UI, API, and mobile testing. Proficient in tools such as Selenium, Karate, Rest Assured, Perfecto and Jenkins. Adept at designing scalable automation frameworks, optimizing test processes, and collaborating with cross-functional teams to deliver bug-free software.
+
+%==== Experience ====%
+
+\header{Professional Experience}
+\begin{Large}
+\textbf{Accenture} \hfill \textit{Hyderabad, India}  \\
+\end{Large}
+\indent \textbf{Quality Analyst} \hfill \textbf{June 2022 – Present}
+\begin{itemize}
+\item Led full-stack solutions by effectively integrating cross-functional teams, expediting project delivery while maintaining adherence to industry-standard quality benchmarks, resulting in a 98\% defect-free rate.
+\item Collaborated with multiple internal teams to ensure the timely delivery of over 500 test cases covering critical functionalities such as bill pay and check deposits, improving customer satisfaction by 20\% and reducing issue resolution time by 25\%.
+\item Spearheaded the establishment of a robust testing framework using Karate integrated with Cucumber in Gherkin syntax, automating over 200 test scenarios, optimizing testing efficiency, and reducing manual testing time by 60\%.
+\item Integrated the testing framework with Jenkins, achieving a seamless CI/CD pipeline deployment process, reducing deployment times by 25\%, and ensuring smooth delivery of applications with rigorous MySQL database testing.
+\item Developed and maintained over 70 automation test cases in Selenium, employing the Page Object Model (POM) framework to improve UI automation efficiency, reducing manual testing efforts by 35\%.
+\item Generated and maintained professional-grade test reports using Jira-Xray and ALM, tracking over 600 test cases with comprehensive metrics, enhancing transparency, and increasing team productivity.
+\item Participated in Agile ceremonies, including sprint planning, daily stand-ups, and retrospectives, fostering collaborative workflows that reduced development cycles through continuous feedback and iterative improvement.
+\item Ensured data integrity by handling complex test data sets comprising over 1,000 records while adhering to confidentiality and compliance with industry standards throughout the testing lifecycle.
+\end{itemize}
+
+\textbf{Associate Software Engineer} \hfill \textbf{Feb 2021 – June 2022}
+\begin{itemize}
+    \item Played a pivotal role in the improvement of the UI Path Image Detection automation framework by developing 140+ automation scripts, boosting testing efficiency by 40\% and reducing manual testing time .
+    \item Spearheaded the upgrade of the image detection framework to a remote runtime framework, increasing script efficiency by 50\% and improving script re usability by 60\%.
+    \item Enhanced the Selenium-based Cucumber framework by adding 40+ UI test cases, ensuring 95\% test coverage and reducing defect leakage in production.
+    \item Developed and executed 150+ mobile test cases using the Perfecto tool integrated with the Selenium-based Cucumber framework, improving cross-device testing coverage by 40\%.
+    \item Managed over 500 test cases in Git repositories and maintained detailed reports in Qtest, improving test documentation transparency and reducing audit preparation time.
+    \item Implemented Jenkins integration for seamless test execution on remote machines, reducing test execution time by 35\% and optimizing automation workflows, leading to a 25\% increase in overall testing efficiency.
+    \item Optimized test coverage by utilizing risk-based analysis techniques, prioritizing high-impact areas to ensure focused and efficient testing.
+\end{itemize}
+%==== Education ====%
+
+\header{Education}
+\textbf{Bachelor of Engineering, Electronics and Communication} \hfill \textit{Aug 2016 – Nov 2020} \\
+\indent\indent Osmania University, Hyderabad \\
+
+%==== Skills ====%
+
+\header{Technical Skills}
+\vspace*{-20pt}
+\begin{itemize}
+    \item \textbf{UI Automation Tools:} Selenium (Java), UI Path(RPA Tool)
+    \item \textbf{API Automation Tools:} Karate(DSL), Rest Assured (Java), Postman
+    \item \textbf{Version Control and CI/CD Tools:} Git, Bit bucket, Jenkins
+    \item \textbf{Domain Knowledge:} Banking, Insurance, Health Care
+    \item \textbf{Reporting and Management Tools:} Jira Xray, Qtest, ALM, Confluence, Swagger, Power BI
+    \item \textbf{Frameworks :} Page Object Model(POM), Data Driven Model, Cucumber on both Selenium and Karate
+    \item \textbf{Other Skills:} Agile Methodologies, Microsoft Tools
+\end{itemize}
+
+\end{document}
