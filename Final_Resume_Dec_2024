@@ -1,0 +1,102 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{textcomp}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{enumitem}
+\usepackage{mathptmx} % Times New Roman Font
+\usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=black,
+    filecolor=black,
+    urlcolor=blue
+}
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\header} [1] {
+    {\vspace*{16pt} \hspace*{-18pt}\textsc{\Large #1}}\\
+    \vspace*{4pt} \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-20pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-15pt}
+}
+
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\vspace*{-40pt}
+
+%==== Profile ====%
+
+\contact{Harsha Vardhan}{
+    harshavardhan8693@gmail.com $\cdot$ +91 7207676463}{
+    \href{https://www.linkedin.com/in/harsha-vardhan-314963188/}{LinkedIn Profile} $\cdot$
+    \href{https://github.com/Harshavardhan8693}{GitHub}
+}
+
+%==== Summary ====%
+
+\header{Professional Summary}
+\begin{normalsize}
+     \indent Experienced \textbf{Quality Analyst} with over \textbf{4 years} of expertise in manual and automated testing, specializing in \textbf{UI, API, and mobile testing}. Proficient with tools such as \textbf{Selenium}, \textbf{Karate}, \textbf{Rest Assured}, \textbf{Perfecto}, and \textbf{Jenkins}. Expertise includes managing the full \textbf{Software Testing Life Cycle (STLC)}, designing scalable automation frameworks, and optimizing testing processes to deliver \textbf{high-quality, defect-free software}.
+\end{normalsize}
+
+%==== Experience ====%
+
+\header{Professional Experience}
+\textbf{\large Accenture} \hfill \textit{\large Hyderabad, India}  \\[1ex]
+\textbf{Quality Analyst} (Clients: PNC Bank, Kaiser Permanente) \hfill \textit{June 2022 – Present}
+\begin{itemize}[itemsep=0.3ex]
+\item Led full-stack testing solutions, coordinating cross-functional teams and maintaining industry-standard quality benchmarks, achieving a \textbf{98\% defect-free rate}.
+\item Delivered over \textbf{500 test cases} covering key functionalities like bill pay and check deposits, improving customer satisfaction by \textbf{20\%} and reducing issue resolution time.
+\item Spearheaded the creation of a robust \textbf{Karate testing framework integrated with Cucumber (Gherkin syntax)}, automating \textbf{200+ test scenarios} and cutting manual effort by \textbf{60\%}.
+\item Integrated the testing framework with \textbf{Jenkins} to establish a CI/CD pipeline, reducing deployment times by \textbf{25\%}, with rigorous regression, functional, and sanity testing.
+\item Designed and maintained \textbf{70+ Selenium automation test cases} using the Page Object Model (POM) framework, improving \textbf{UI testing efficiency}.
+\item Conducted comprehensive database testing with \textbf{MySQL}, ensuring application performance and data accuracy.
+\item Created professional test reports using \textbf{Jira-Xray and ALM}, tracking \textbf{600+ test cases} and enhancing team productivity.
+\item Participated in \textbf{Agile ceremonies}, improving workflows and reducing development cycles through iterative feedback.
+\item Managed over \textbf{1,000 complex test data records}, ensuring data integrity and compliance across regression, functional, and end-to-end testing.
+\end{itemize}
+\textbf{Associate Software Engineer} (Clients: PNC Bank) \hfill \textit{Feb 2021 – June 2022}
+\begin{itemize}[itemsep=0.5ex]
+    \item Played a pivotal role in improving the \textbf{UI Path Image Detection automation framework} by developing \textbf{140+ automation scripts}, boosting testing efficiency by \textbf{40\%}.
+    \item Upgraded the image detection framework to a \textbf{remote runtime system}, improving script efficiency by \textbf{50\%} and increasing reusability by \textbf{60\%}.
+    \item Enhanced the \textbf{Selenium-based Cucumber framework} by adding \textbf{40+ UI test cases}, ensuring \textbf{95\% test coverage} and reducing defect leakage.
+    \item Developed and executed \textbf{150+ mobile test cases} using \textbf{Perfecto}, integrated with \textbf{Selenium-based Cucumber}, improving cross-device testing coverage by \textbf{40\%}.
+    \item Managed over \textbf{500 test cases} in \textbf{Git repositories} and maintained detailed reports in \textbf{Qtest}, improving documentation and reducing audit preparation time.
+    \item Implemented \textbf{Jenkins integration} for seamless test execution on remote machines, reducing test execution time by \textbf{35\%} and optimizing automation workflows.
+    \item Optimized test coverage by utilizing \textbf{risk-based analysis techniques} to focus on high-impact areas.
+\end{itemize}
+
+%==== Education ====%
+\header{Education}
+\textbf{Bachelor of Engineering, Electronics and Communication} \hfill \textit{Aug 2016 – Nov 2020}\\
+Osmania University, Hyderabad \\
+
+%==== Skills ====%
+
+\header{Technical Skills}
+\vspace*{-20pt}
+\begin{itemize}
+    \item \textbf{UI Automation Tools:} Selenium (Java), UI Path (RPA Tool)
+    \item \textbf{API Automation Tools:} Karate (DSL), Rest Assured (Java), Postman
+    \item \textbf{Version Control and CI/CD Tools:} Git, Bit bucket, Jenkins
+    \item \textbf{Domain Knowledge:} Banking, Insurance, Health Care
+    \item \textbf{Reporting and Management Tools:} Jira Xray, Qtest, ALM, Confluence, Swagger, Power BI
+    \item \textbf{Frameworks:} Page Object Model (POM), Data Driven Model, Cucumber (Selenium and Karate)
+    \item \textbf{Other Skills:} Agile Methodologies, Microsoft Tools
+\end{itemize}
+
+\end{document}
