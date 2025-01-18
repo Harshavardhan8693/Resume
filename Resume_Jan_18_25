@@ -1,0 +1,192 @@
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+%==== Profile ====%
+\begin{center}
+    \textbf{\Huge \scshape Harsha Vardhan} \\ \vspace{1pt}
+    \small  +917207676463 $|$ \href{mailto:harshavardhan8693@gmail.com}{\underline{harshavardhan8693@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/harsha-vardhan-314963188/}{\underline{linkedin.com/in/harsha-vardhan}} $|$
+    \href{https://github.com/Harshavardhan8693}{\underline{github.com/Harsha}}
+\end{center}
+
+%==== Summary ====%
+\section{Professional Summary}
+  \resumeSubHeadingListStart
+    \resumeItem{Experienced \textbf{Quality Analyst} with over \textbf{4 years} of expertise in manual and automated testing, specializing in \textbf{UI, API, and mobile testing}. Proficient with tools such as \textbf{Selenium}, \textbf{Karate}, \textbf{Rest Assured}, \textbf{Perfecto}, and \textbf{Jenkins}. Expertise includes managing the full \textbf{Software Testing Life Cycle (STLC)}, designing scalable automation frameworks, and optimizing testing processes to deliver \textbf{high-quality, defect-free software}.}
+  \resumeSubHeadingListEnd
+
+%==== Experience ====%
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Quality Analyst}{June 2022 – Present}
+      {Accenture (Clients: PNC Bank, Kaiser Permanente)}{Hyderabad, India}
+      \resumeItemListStart
+        \resumeItem{Led full-stack testing solutions, coordinating cross-functional teams and maintaining industry-standard quality benchmarks, achieving a \textbf{98\% defect-free rate}.}
+        \resumeItem{Developed a full-stack web application using Flask, React, PostgreSQL and Docker to analyze GitHub data}
+        \resumeItem{Explored ways to visualize GitHub collaboration in a classroom setting}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Information Technology Support Specialist}{June 2022 – Present}
+      {Southwestern University}{Hyderabad, India}
+      \resumeItemListStart
+        \resumeItem{Communicate with managers to set up campus computers used on campus}
+        \resumeItem{Assess and troubleshoot computer problems brought by students, faculty and staff}
+        \resumeItem{Maintain upkeep of computers, classroom equipment, and 200 printers across campus}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+\header{Professional Experience}
+\textbf{\large Accenture} \hfill \textit{\large Hyderabad, India}  \\[1ex]
+\textbf{Quality Analyst} (Clients: PNC Bank, Kaiser Permanente) \hfill \textit{June 2022 – Present}
+\begin{itemize}[itemsep=0.3ex]
+\item Led full-stack testing solutions, coordinating cross-functional teams and maintaining industry-standard quality benchmarks, achieving a \textbf{98\% defect-free rate}.
+\item Delivered over \textbf{500 test cases} covering key functionalities like bill pay and check deposits, improving customer satisfaction by \textbf{20\%} and reducing issue resolution time.
+\item Spearheaded the creation of a robust \textbf{Karate testing framework integrated with Cucumber (Gherkin syntax)}, automating \textbf{200+ test scenarios} and cutting manual effort by \textbf{60\%}.
+\item Integrated the testing framework with \textbf{Jenkins} to establish a CI/CD pipeline, reducing deployment times by \textbf{25\%}, with rigorous regression, functional, and sanity testing.
+\item Designed and maintained \textbf{70+ Selenium automation test cases} using the Page Object Model (POM) framework, improving \textbf{UI testing efficiency}.
+\item Conducted comprehensive database testing with \textbf{MySQL}, ensuring application performance and data accuracy.
+\item Created professional test reports using \textbf{Jira-Xray and ALM}, tracking \textbf{600+ test cases} and enhancing team productivity.
+\item Participated in \textbf{Agile ceremonies}, improving workflows and reducing development cycles through iterative feedback.
+\item Managed over \textbf{1,000 complex test data records}, ensuring data integrity and compliance across regression, functional, and end-to-end testing.
+\end{itemize}
+\textbf{Associate Software Engineer} (Clients: PNC Bank) \hfill \textit{Feb 2021 – June 2022}
+\begin{itemize}[itemsep=0.5ex]
+    \item Played a pivotal role in improving the \textbf{UI Path Image Detection automation framework} by developing \textbf{140+ automation scripts}, boosting testing efficiency by \textbf{40\%}.
+    \item Upgraded the image detection framework to a \textbf{remote runtime system}, improving script efficiency by \textbf{50\%} and increasing reusability by \textbf{60\%}.
+    \item Enhanced the \textbf{Selenium-based Cucumber framework} by adding \textbf{40+ UI test cases}, ensuring \textbf{95\% test coverage} and reducing defect leakage.
+    \item Developed and executed \textbf{150+ mobile test cases} using \textbf{Perfecto}, integrated with \textbf{Selenium-based Cucumber}, improving cross-device testing coverage by \textbf{40\%}.
+    \item Managed over \textbf{500 test cases} in \textbf{Git repositories} and maintained detailed reports in \textbf{Qtest}, improving documentation and reducing audit preparation time.
+    \item Implemented \textbf{Jenkins integration} for seamless test execution on remote machines, reducing test execution time by \textbf{35\%} and optimizing automation workflows.
+    \item Optimized test coverage by utilizing \textbf{risk-based analysis techniques} to focus on high-impact areas.
+\end{itemize}
+
+%==== Education ====%
+\header{Education}
+\textbf{Bachelor of Engineering, Electronics and Communication} \hfill \textit{Aug 2016 – Nov 2020}\\
+Osmania University, Hyderabad \\
+
+%==== Skills ====%
+
+\header{Technical Skills}
+\begin{itemize}
+    \item \textbf{UI Automation Tools:} Selenium (Java), UI Path (RPA Tool)
+    \item \textbf{API Automation Tools:} Karate (DSL), Rest Assured (Java), Postman
+    \item \textbf{Version Control and CI/CD Tools:} Git, Bit bucket, Jenkins
+    \item \textbf{Domain Knowledge:} Banking, Insurance, Health Care
+    \item \textbf{Reporting and Management Tools:} Jira Xray, Qtest, ALM, Confluence, Swagger, Power BI
+    \item \textbf{Frameworks:} Page Object Model (POM), Data Driven Model, Cucumber (Selenium and Karate)
+    \item \textbf{Other Skills:} Agile Methodologies, Microsoft Tools
+\end{itemize}
+
+\end{document}
